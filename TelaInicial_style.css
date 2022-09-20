@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
+    
     font-family: Arial, Helvetica, sans-serif;
     font-family: 'Inter', sans-serif;
 }
 
 html, body{
-    width: 100%;
-    height: 100%;
+  
 }
 
 :root{
@@ -28,6 +28,11 @@ body{
     align-items: center;
 }
 
+
+.grupo{
+    margin-top: 10%;
+}
+
 .fazerLogin{
     position: relative;
     border-width:2px;
@@ -36,7 +41,8 @@ body{
     background-color: var(--bg-color-box1);
     float: left;
     padding: 50px 50px 15vh 50px;
-    max-height: 100vh;
+    max-height: 98%;
+    min-height: 100%;
     color: var(--txt-color);
     text-align: center;
     border-radius: 10px 0 0 10px;
@@ -49,7 +55,8 @@ body{
     background-color: var(--bg-color-box2);
     float: left;
     padding: 50px 50px 5.69vh 50px;
-    max-height: 100vh;
+    max-height: 100%;
+    min-height: 100%;
     text-align: center;
     border-radius: 0 10px 10px 0;
 }
@@ -75,6 +82,9 @@ a{
     background-color: var(--bg-color-submit);
     box-shadow: 1px 1px 10px black;
 }
+
+
+
 
 input[type="text"], input[type="email"], input[type="password"]{
     width: 87%;
